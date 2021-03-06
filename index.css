@@ -165,7 +165,6 @@
         background-color: white;
         color: steelblue;
         border: none;
-        /* border-radius: 50px; */
         cursor: pointer;
         transition: all 0.5s ease 0s;
     }
@@ -207,3 +206,33 @@
           text-align: left;
         }
       }
+      .cards{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 350px;
+        padding: 10px;
+        margin: 30px;
+        align-items: center;
+    }
+    .card-img > img{
+        width: 300px;
+        margin: 10px;
+    }
+    .card-btn{
+        color: steelblue;
+        background-color: white;
+        height: 30px;
+        width: 250px;
+        margin: 10px;
+    }
+    .card-btn:hover{
+        color: white;
+        background-color: steelblue;
+    }

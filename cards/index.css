@@ -1,0 +1,28 @@
+*{
+    outline: none;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    background-color: #f5ecec;
+    width: 18.7rem;
+    padding: 10px;
+    margin: 30px;
+}
+.card-img > img{
+    width: 300px;
+}
+.card-btn{
+    color: steelblue;
+    background-color: white;
+    height: 30px;
+    width: 50%;
+}
+.card-btn:hover{
+    color: white;
+    background-color: steelblue;
+}

@@ -4,7 +4,7 @@
 ### Also willing to make a documentation for it as it grows
 ### Now the code is very small can be read and uderstood
 ### Make a issue if you find any 
-### The next version will come with beautiful cards and till suggest anything more if you wish to on adityaingh27apr@gmail.com and please follow me on github
+### The next version will soon come with beautiful vertical bar and till suggest anything more if you wish to on adityaingh27apr@gmail.com and please follow me on github
 # Credits
 ### w3schools --> navbar on-of toggel effect and table 
 ### skillthrive --> navbar code
