@@ -1,0 +1,30 @@
+.wd-1{
+  width: 20%;
+}
+.wd-2{
+  width: 40%;
+}
+.wd-3{
+  width: 60%;
+}
+.wd-4{
+  width: 80%;
+}
+.wd-5{
+  width: 100%;
+}
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+  }
+  
+  .table-cell, .tabel-header {
+    border: 0.5px solid steelblue;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .table-row:nth-child(even) {
+    background-color: steelblue;
+    color: white;
+  }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='index.css'>
+    <title>Title</title>
+</head>
+
+<body>
+    <div align=center>
+        <img src="https://bit.ly/38eAfpB" alt="logo" class="logo">
+    </div>
+    <header>
+        <nav>
+            <ul class="nav-links" id="myTopnav">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <div class="btns">
+        <a href="#" class="cta"><button class="nav-button">Contact</button></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    </header>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "nav-links") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-links";
+            }
+        }
+    </script>
+</body>
+
+</html>

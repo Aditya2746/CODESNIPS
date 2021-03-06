@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align=center>Blue Theme code snips</h1>
+    <p align=center style="font-size: 30px;;">Navbar</p>
+    <div align=center>
+        <img src="https://bit.ly/38eAfpB" alt="logo" class="logo">
+    </div>
+    <header>
+        <nav>
+            <ul class="nav-links" id="myTopnav">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <div class="btns">
+        <a href="#" class="cta"><button class="nav-button" style="margin: 15px;">Contact</button></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars icon icon-blue"></i>
+        </a>
+    </div>
+    </header>
+    </div>
+    <p align=center style="font-size: 30px;">Form</p>
+    <div>
+        <form target="" method="">
+            <div class="form-control">
+                <i class="fa fa-user icon icon-blue"></i>
+                <input class="form-feild border-bottom-blue" type="text" name="username" placeholder="With icon"/>
+            </div><div class="form-control">
+                <input class="form-feild border-bottom-blue" type="text" name="username" placeholder="Without icon"/>
+            </div>
+            <div class="form-control">  
+                <button class="btn btn-blue border-four-blue" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <p align=center style="font-size: 30px;;">Table</p>
+
+    <div align=center>
+    <table  class="table wd-3">
+        <tr  class="table-row">
+          <th class="table-header">Company</th>
+          <th class="table-header">Contact</th>
+          <th class="table-header">Country</th>
+        </tr>
+        <tr class="table-row">
+          <td class="table-cell">Alfreds Futterkiste</td>
+          <td class="table-cell">Maria Anders</td>
+          <td class="table-cell">Germany</td>
+        </tr>
+        <tr class="table-row">
+          <td class="table-cell">Centro comercial Moctezuma</td>
+          <td class="table-cell">Francisco Chang</td>
+          <td class="table-cell">Mexico</td>
+        </tr>
+        <tr class="table-row">
+          <td class="table-cell">Ernst Handel</td>
+          <td class="table-cell">Roland Mendel</td>
+          <td class="table-cell">Austria</td>
+        </tr>
+        <tr class="table-row">
+          <td class="table-cell">Island Trading</td>
+          <td class="table-cell">Helen Bennett</td>
+          <td class="table-cell">UK</td>
+        </tr>
+        <tr class="table-row">
+          <td class="table-cell">Laughing Bacchus Winecellars</td>
+          <td class="table-cell">Yoshi Tannamuri</td>
+          <td class="table-cell">Canada</td>
+        </tr>
+        <tr class="table-row">
+          <td class="table-cell">Magazzini Alimentari Riuniti</td>
+          <td class="table-cell">Giovanni Rovelli</td>
+          <td class="table-cell">Italy</td>
+        </tr>
+      </table>
+      </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "nav-links") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-links";
+            }
+        }
+    </script>
+
+</body>
+</html>

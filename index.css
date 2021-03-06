@@ -1,0 +1,209 @@
+*{
+    outline:none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 50;
+    transition: all 0.3s ease 0s;
+}
+/* Border */
+/* Border-blue */
+.border-four-blue{
+    border: 0.5px solid steelblue;
+}
+.border-bottom-blue{
+    border-bottom: 0.5px solid steelblue;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.border-left-blue{
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    border-left: 0.5px solid steelblue;
+}
+.border-four-blue:focus{
+    border: 0.5px solid steelblue;
+}
+.border-bottom-blue:focus{
+    border: 0.5px solid steelblue;
+}
+.border-left-blue:focus{
+    border: 0.5px solid steelblue;
+}
+/* DIV of EACH FEILD */
+.form-control{
+    margin: auto;
+    width: 40%;
+    display: flex;
+    margin-bottom: 15px;
+}
+/* fields */
+.form-feild{
+    width: 100%;
+    height: 35px;
+    font-size : 18px;
+    padding-left: 10px;
+}
+.form-feild:focus{
+    box-shadow: 0.5px 0.5px 4px steelblue;
+}
+/* Button */
+.btn{
+    width:100%;
+    height:45px;
+    margin-left: 1.5%;
+}
+/* button-blue */
+.btn-blue{
+    background-color: white;
+    color: steelblue;
+    transition: all 0.3s ease 0s;
+}
+.btn-blue:hover{
+    background-color: steelblue;
+    color: white
+}
+/* icon */
+.icon{
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    padding: 10px;
+}
+/* icon-blue */
+.icon-blue{
+    background: steelblue;
+}
+.wd-1{
+    width: 20%;
+  }
+  .wd-2{
+    width: 40%;
+  }
+  .wd-3{
+    width: 60%;
+  }
+  .wd-4{
+    width: 80%;
+  }
+  .wd-5{
+    width: 100%;
+  }
+  .table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+    }
+    
+    .table-cell, .tabel-header {
+      border: 0.5px solid steelblue;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    .table-row:nth-child(even) {
+      background-color: steelblue;
+      color: white;
+    }
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        outline: none;
+    }
+    
+    li, a, button {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        text-decoration: none;
+        color: #03657e;
+    }
+    a:visited{
+        color: #03657e;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10%;
+        width:90%;
+    }
+    
+    .logo {
+        cursor: pointer;
+        height: 44px;
+        width: 44px;
+        margin-top: 10px;
+    }
+    
+    .nav-links {
+        list-style: none;
+        
+    }
+    .icon{
+        display:none
+    }
+    .nav-links li {
+        display: inline-block;
+        padding: 0px 20px;
+    }
+    
+    .nav-links li a {
+        transition: all 0.3s ease 0s;
+    }
+    
+    .nav-links li a:hover {
+        color: white;
+        background: steelblue;
+        padding:10px;
+    }
+    
+    .nav-button {
+        padding: 9px 25px;
+        background-color: white;
+        color: steelblue;
+        border: none;
+        /* border-radius: 50px; */
+        cursor: pointer;
+        transition: all 0.5s ease 0s;
+    }
+    
+    .nav-button:hover {
+        background-color: steelblue;
+        color: white;
+    }
+    @media screen and (max-width: 600px) {
+        .nav-links li:not(:first-child) {display: none;}
+        .btns a.icon {
+            /* position: absolute; */
+        margin-top:10px;
+          float: right;
+          display: block;
+        }
+      }
+      @media screen and (max-width: 500px) {
+        .nav-links li {display: none;}
+        .btns a.icon {
+            /* position: absolute; */
+          float: right;
+          display: block;
+        }
+        .nav-button{
+            margin-right: 10px;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .nav-links.responsive {position: absolute;}
+        .btns a.icon {
+          margin-top: 10px;
+    
+        }
+        .nav-links.responsive li {
+          float: none;
+          display: block;
+          margin: -5px 20px 20px 0px;
+          text-align: left;
+        }
+      }
