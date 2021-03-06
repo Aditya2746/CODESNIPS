@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
 *{
     outline:none;
     font-family: "Montserrat", sans-serif;
     font-weight: 50;
-    transition: all 0.3s ease 0s;
+    /* transition: all 0.3s ease 0s; */
 }
-/* Border */
-/* Border-blue */
 .border-four-blue{
     border: 0.5px solid steelblue;
 }
@@ -30,14 +30,12 @@
 .border-left-blue:focus{
     border: 0.5px solid steelblue;
 }
-/* DIV of EACH FEILD */
 .form-control{
     margin: auto;
     width: 40%;
     display: flex;
     margin-bottom: 15px;
 }
-/* fields */
 .form-feild{
     width: 100%;
     height: 35px;
@@ -47,13 +45,11 @@
 .form-feild:focus{
     box-shadow: 0.5px 0.5px 4px steelblue;
 }
-/* Button */
 .btn{
     width:100%;
     height:45px;
     margin-left: 1.5%;
 }
-/* button-blue */
 .btn-blue{
     background-color: white;
     color: steelblue;
@@ -63,14 +59,12 @@
     background-color: steelblue;
     color: white
 }
-/* icon */
 .icon{
     color: white;
     min-width: 50px;
     text-align: center;
     padding: 10px;
 }
-/* icon-blue */
 .icon-blue{
     background: steelblue;
 }
@@ -90,7 +84,6 @@
     width: 100%;
   }
   .table {
-      font-family: arial, sans-serif;
       border-collapse: collapse;
     }
     
@@ -104,7 +97,6 @@
       background-color: steelblue;
       color: white;
     }
-    @import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
 
     * {
         box-sizing: border-box;
@@ -176,7 +168,6 @@
     @media screen and (max-width: 600px) {
         .nav-links li:not(:first-child) {display: none;}
         .btns a.icon {
-            /* position: absolute; */
         margin-top:10px;
           float: right;
           display: block;
@@ -185,7 +176,6 @@
       @media screen and (max-width: 500px) {
         .nav-links li {display: none;}
         .btns a.icon {
-            /* position: absolute; */
           float: right;
           display: block;
         }
@@ -204,6 +194,7 @@
           display: block;
           margin: -5px 20px 20px 0px;
           text-align: left;
+          background-color: white;
         }
       }
       .cards{
@@ -220,6 +211,9 @@
         padding: 10px;
         margin: 30px;
         align-items: center;
+    }
+    .card:hover{
+        transform: scale(1.1); 
     }
     .card-img > img{
         width: 300px;
